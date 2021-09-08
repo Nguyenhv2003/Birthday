@@ -1,0 +1,372 @@
+<html>
+  <head>
+<title>Làng Sen - Quê Bác</title>
+<script src="https://lichngaytot.com/Content/Js/Libs/jquery-3.4.1.min.js"></script>
+<script src="https://lichngaytot.com/Content/Js/Libs/jquery-ui.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="assets/img/">
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/slides.min.js?41331" type="text/javascript"></script>
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+<style type="text/css">
+  .linh{width: 100%;}
+</style>
+<style> 
+   
+    #bogoc {
+        background: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 35cm;
+        height: 3.5cm;
+        color:#184638;
+        margin-left: auto; margin-right: auto;  
+        background: url(file:///E:/Hackathon/picture/quebac.png);
+    } 
+</style>
+<style> 
+   
+  #bogoc2 {
+      background: #ffffff;
+      border-radius: 25px;
+      border: 2px solid #73AD21;
+      padding: 20px; 
+      width: 35cm;
+      height: 5cm;
+      color:#184638;
+      margin-left: auto; margin-right: auto;  
+      background: url(file:///E:/Hackathon/picture/quebac.png);
+  } 
+</style>
+<style>
+  .can111giua {
+
+  
+    vertical-align: middle;
+    text-align: center;
+
+  }
+</style>
+<style> 
+   
+    #anharvr {
+        background: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 35cm;
+        height: 15cm;
+        color:#184638;
+        margin-left: auto; margin-right: auto;  
+        background: url(file:///E:/Hackathon/picture/quebac.png);
+    } 
+  </style>
+  <style> 
+   
+    #review {
+        background: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 17.2cm;
+        height: 4cm;
+        color:#184638;
+        margin-left: auto; margin-right: auto; 
+        background: url(file:///E:/Hackathon/picture/quebac.png); 
+    } 
+  </style>
+<style>
+  p.small {
+font-size: small;
+}
+p.medium {
+font-size: medium;
+}
+p.large {
+font-size: large;
+}
+p.xlarge {
+font-size: x-large;
+}
+</style>
+<style> 
+   
+    #bogo1 {
+        background: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 15cm;
+        height: 1cm;
+        color:#184638;
+        margin-left: auto; margin-right: auto;  
+    } 
+</style>
+<style> 
+   
+  #hinhanh {
+      background: #ffffff;
+      border-radius: 25px;
+      border: 2px solid #73AD21;
+      padding: 20px; 
+      width: 20cm;
+      height: 1cm;
+      color:#184638;
+      margin-left: auto; margin-right: auto;  
+  } 
+</style>
+<style>
+  .yeudlinh {display:none;}
+</style>
+  <style>
+    .nhv {display:none;}
+    </style>
+<style type="text/css">
+  .linh1{width: 100%;}
+</style>
+<style type="text/css">
+  .linh2{width: 100%;}
+</style>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  } 
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .mySlides {display:none;}
+  .owoSlides {display:none;}
+  h5 {
+     text-shadow: 1px 1px #505050;
+  }
+
+  .flip-card {
+  margin:auto;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 40px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    text-align: center;
+    color: rgb(192, 168, 168);
+  }
+
+  .flip-card-back {
+    background-color: #184638;
+    color: white;
+    
+    transform: rotateY(180deg);
+  }
+  
+</style>
+<style>
+    .circle1 {
+    background: #7c8576;
+    clip-path: circle(50%);
+    height: 1cm;
+    width: 1cm;
+  }
+  </style>
+<style type="text/css">
+    .thongbao {
+      background-image: url("file:///E:/Hackathon/picture/tcn10.png");
+    }
+    </style>
+<style type="text/css">
+  .w3-btn {margin-bottom:10px;}
+  </style>
+</head>
+<body>
+
+  <!------------------------------------------------------- Trang Chính ------------------------------------------------------------------------------>
+  
+        <div class="thongbao ">
+              <br><br>
+            <p id="bogoc" class="center w3-animate-bottom">
+                <table class="w3-table w3-bordered">
+                   <h2><center>Làng Sen - Quê Bác</center></h2>
+                   <h6> Nam Đàn - Nghệ An</h6>
+                </table>
+            </p>
+              <h6></h6>
+            <p id="bogoc2" class="w3-animate-bottom">
+                Làng Sen thuộc xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An - mảnh đất miền Trung đầy nắng gió. Từ thành phố Vinh đi theo Quốc lộ 46 khoảng 15km là tới làng Sen, quê Bác.
+Dẫu đã qua cả thế kỷ, vạn vật đổi thay nhưng những hình ảnh xưa cũ của làng Sen gắn liền với tuổi thơ Bác vẫn được lưu giữ đến bây giờ như một miền ký ức đẹp và là tấm gương sáng cho mọi những thế hệ.
+            </p>
+            <p id="anharvr" class="w3-animate-bottom">
+                <table class="w3-table w3-border">
+                    <tr>
+                        <th with="70%" class="w3-centered">
+                            
+            <div class="w3-section w3-centered">
+              <img class="yeudlinh center" src="file:///E:/Hackathon/picture/13947d4c23ffd4a18dee5.jpg" width="99%">
+              <img class="yeudlinh center" src="file:///E:/Hackathon/picture/52d6c20e9cbd6be332ac4.jpg" width="99%">
+              <img class="yeudlinh center" src="file:///E:/Hackathon/picture/3307a480fa330d6d54226.jpg" width="99%">
+              </div>
+              
+              <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("yeudlinh");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 1500); // Change image every 2 seconds
+              }
+              </script>
+                        </th>
+                        <th width="15%" class="can111giua w3-border" >
+                          
+                          <button class="w3-green w3-border w3-btn w3-border-red w3-round-large" style="width:100%"><h1><br><br><br><br><br>VR<br><br><br><br><br></h1></button>
+                        </th> 
+                        <th width="15%" class="can111giua w3-border">    
+                          <button class="w3-green w3-border w3-btn w3-border-red w3-round-large" style="width:100%"><h1><br><br><br><br><br>AR<br><br><br><br><br></h1></button>
+
+                        </th>
+                    </tr>
+                </table>
+            </p>
+            <!--------------------------------------------------------------------------------------------------------------->
+            <table width="100%">
+              <tr>
+                  <th width="50%">
+                      <p id="review" class="w3-animate-bottom">
+                          Những review của người từng đến
+                      </p>
+                  </th>
+                  <th width="50%">
+                    <p id="review" class="w3-animate-bottom">
+                        Trang web Làng Sen - Quê Bác
+                    </p>
+                </th>
+              </tr>
+
+            </table>
+            <!---------------------------------------------------------------->
+            <table width="100%">
+              <tr>
+                  <th width="50%">
+                      <p id="review" class="w3-animate-bottom">
+                          Các tour du lịch đi qua địa điểm này
+                      </p>
+                  </th>
+                  <th width="50%">
+                    <p id="review" class="w3-animate-bottom">
+                        Gợi ý các phương tiện
+                    </p>
+                </th>
+              </tr>
+
+            </table>
+            <!---------------------------------------------------------------->
+            <table width="100%">
+              <tr>
+                  <th width="50%">
+                      <p id="review" class="w3-animate-bottom">
+                          Các hàng, quán ăn
+                      </p>
+                  </th>
+                  <th width="50%">
+                    <p id="review" class="w3-animate-bottom">
+                        Khách sạn, nhà nghỉ
+                    </p>
+                </th>
+              </tr>
+
+            </table>
+            <!---------------------------------------------------------------->
+            <table width="100%">
+              <tr>
+                  <th width="50%">
+                      <p id="review" class="w3-animate-bottom">
+                          Dự báo thời tiết
+                      </p>
+                  </th>
+                  <th width="50%">
+                    <p id="review" class="w3-animate-bottom">
+                       Google maps
+                    </p>
+                </th>
+              </tr>
+
+            </table>
+            <!---------------------------------------------------------------->
+            <table width="100%">
+              <tr>
+                  <th width="50%">
+                      <p id="review" class="w3-animate-bottom">
+                          Đóng góp ý kiến
+                      </p>
+                  </th>
+                  <th width="50%">
+                    <p id="review" class="w3-animate-bottom">
+                       Các nhắc nhở, lưu ý khi đến đây
+                    </p>
+                </th>
+              </tr>
+
+            </table>
+        </div>
+       
+</body>
+</html>
